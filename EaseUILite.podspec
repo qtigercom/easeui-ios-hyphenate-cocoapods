@@ -14,7 +14,7 @@ Pod::Spec.new do |spec|
   spec.vendored_libraries = ['EaseUI/EMUIKit/3rdparty/DeviceHelper/VoiceConvert/opencore-amrnb/libopencore-amrnb.a','EaseUI/EMUIKit/3rdparty/DeviceHelper/VoiceConvert/opencore-amrwb/libopencore-amrwb.a']
   spec.requires_arc = true
   spec.frameworks = 'Foundation', 'UIKit'
-  spec.libraries    = 'stdc++'
+  spec.libraries    = 'c++'
   spec.resource     = 'EaseUI/resources/EaseUIResource.bundle'
   spec.xcconfig     = {'OTHER_LDFLAGS' => '-ObjC', 'GCC_PREPROCESSOR_DEFINITIONS' => 'ENABLE_LITE=1'}
   spec.dependency 'MWPhotoBrowser', '~> 2.1.1'    
